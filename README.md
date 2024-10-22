@@ -1,5 +1,10 @@
 # Ordering System App
 
+<div style="display: flex; justify-content: space-around;">
+    <img src="./Ch3-1.png" alt="应用截图1" style="width: 45%; margin: 5px;">
+    <img src="./Ch3-3.png" alt="应用截图2" style="width: 45%; margin: 5px;">
+    
+</div>
 ## Overview
 
 This project is a mobile ordering system built using SwiftUI. It allows users to browse a menu, place orders, and track their order status in real-time.
@@ -18,10 +23,3 @@ This project is a mobile ordering system built using SwiftUI. It allows users to
 - Combine for reactive programming
 - Core Data for local data persistence
 - Firebase for backend services (authentication and database)
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/ordering-system-app.git
-   ```

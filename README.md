@@ -2,7 +2,7 @@
 
 <div style="display: flex; justify-content: space-around;">
     <img src="./Ch3-1.png" alt="应用截图1" style="width: 45%; margin: 5px;">
-    <img src="./Ch3-3.png" alt="应用截图2" style="width: 45%; margin: 5px;">
+    <img src="./CH3-3.png" alt="应用截图2" style="width: 45%; margin: 5px;">
     
 </div>
 ## Overview

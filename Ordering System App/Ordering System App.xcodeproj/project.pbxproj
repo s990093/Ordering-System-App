@@ -48,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D9707C322CD9A4B60086DD5C /* Ordering-System-AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Ordering-System-AppTests-Info.plist"; sourceTree = SOURCE_ROOT; };
 		D975621A2CA29B1E004234FE /* Ordering System App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ordering System App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D975621D2CA29B1E004234FE /* Ordering_System_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ordering_System_AppApp.swift; sourceTree = "<group>"; };
 		D975621F2CA29B1E004234FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -145,6 +146,7 @@
 		D975622D2CA29B1F004234FE /* Ordering System AppTests */ = {
 			isa = PBXGroup;
 			children = (
+				D9707C322CD9A4B60086DD5C /* Ordering-System-AppTests-Info.plist */,
 				D975622E2CA29B1F004234FE /* Ordering_System_AppTests.swift */,
 			);
 			path = "Ordering System AppTests";
@@ -505,6 +507,8 @@
 				DEVELOPMENT_TEAM = S8TAUN5365;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "$(CURRENT_PROJECT_VERSION)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -535,6 +539,8 @@
 				DEVELOPMENT_TEAM = S8TAUN5365;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "$(CURRENT_PROJECT_VERSION)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -563,6 +569,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S8TAUN5365;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ordering-System-AppTests-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = req;
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = ok;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "smart-home.com.Ordering-System-AppTests";
@@ -583,6 +595,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S8TAUN5365;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ordering-System-AppTests-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = req;
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = ok;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "smart-home.com.Ordering-System-AppTests";

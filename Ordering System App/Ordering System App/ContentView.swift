@@ -16,7 +16,7 @@ struct ContentView: View {
         NavigationView {
             List {
                 // 表格項目 1，導航到 H1_ContentView
-                NavigationLink(destination: H1_ContentView()) {
+                NavigationLink(destination: CH1_ContentView()) {
                     Text("CH1 頁面")
                 }
                 
